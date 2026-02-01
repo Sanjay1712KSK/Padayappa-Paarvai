@@ -122,8 +122,11 @@ Inspired by authority, clarity, and structure
 ## 🧑‍💻 Author
 
 Sanjay Kumar S
+
 SRM University – KTR Campus
+
 LinkedIn: https://www.linkedin.com/in/sanjaykumarksk/
+
 GitHub: https://github.com/Sanjay1712KSK
 
 ---
