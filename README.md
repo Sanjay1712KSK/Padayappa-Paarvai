@@ -55,3 +55,81 @@ Your JSON file must follow this structure:
     { "name": "components", "path": "src/components" }
   ]
 }
+```
+---
+## 🚀 Getting Started (Local Development)
+
+1️⃣ Clone the repository
+```
+git clone https://github.com/Sanjay1712KSK/Padayappa-Paarvai.git
+cd Padayappa-Paarvai
+```
+
+2️⃣ Install dependencies
+```
+npm install
+```
+
+3️⃣ Start the dev server
+```
+npm run dev
+```
+
+Open in browser:
+```
+http://localhost:5173/Padayappa-Paarvai/
+```
+---
+
+## 🛠️ Built With
+
+Vite
+
+React
+
+TypeScript
+
+ES Modules
+
+GitHub Pages
+
+🎯 Use Cases
+
+Understanding large repositories
+
+Visualizing unfamiliar codebases
+
+Teaching folder structures
+
+Portfolio and documentation tooling
+
+📌 Design Philosophy
+
+Simple and readable
+
+No backend, no tracking
+
+User owns their data
+
+Inspired by authority, clarity, and structure
+
+🧑‍💻 Author
+
+Sanju
+SRM University – KTR Campus
+
+GitHub: https://github.com/Sanjay1712KSK
+
+📄 License
+
+This project is licensed under the MIT License.
+
+⭐ Support
+
+If you find this project useful:
+
+⭐ Star the repository
+
+🍴 Fork it
+
+📢 Share it
