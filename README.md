@@ -1,4 +1,4 @@
-# 👁️ Padayappa Paarvai
+# Padayappa Paarvai
 
 **Padayappa Paarvai** is a web-based repository visualizer inspired by the authority and clarity of Rajinikanth’s *Padayappa*.
 
@@ -15,21 +15,21 @@ Upload your folder structure as a JSON file and explore your repository visually
 
 ---
 
-## ✨ Features
+## Loaded With Basic Features
 
-- 📁 Visualize any repository structure as a tree
-- 📄 Automatic file & folder count
-- 🔍 Powerful search
+-  Visualize any repository structure as a tree
+-  Automatic file & folder count
+-  Powerful search
   - Case-sensitive toggle
   - Exact vs fuzzy matching
-- 🌳 Auto-expand matching paths
-- 🎯 Highlighted search matches
-- 👁️ Interactive UI
-- ⚡ Fully client-side (no backend)
+-  Auto-expand matching paths
+-  Highlighted search matches
+-  Interactive UI
+-  Fully client-side (no backend)
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 Padayappa Paarvai does **not** read your filesystem directly.
 
@@ -43,7 +43,7 @@ Everything runs **locally in the browser**.
 
 ---
 
-## 📥 JSON Format
+##  JSON Format
 
 Your JSON file must follow this structure:
 
@@ -57,7 +57,7 @@ Your JSON file must follow this structure:
 }
 ```
 ---
-## 🚀 Getting Started (Local Development)
+##  Getting Started (Local Development)
 
 1️⃣ Clone the repository
 ```
@@ -81,7 +81,7 @@ http://localhost:5173/Padayappa-Paarvai/
 ```
 ---
 
-## 🛠️ Built With
+##  Built With
 
 Vite
 
@@ -95,7 +95,7 @@ GitHub Pages
 
 ---
 
-## 🎯 Use Cases
+##  Use Cases
 
 Understanding large repositories
 
@@ -107,7 +107,7 @@ Portfolio and documentation tooling
 
 ---
 
-## 📌 Design Philosophy
+##  Design Philosophy
 
 Simple and readable
 
