@@ -1,83 +1,156 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# React + TypeScript + Vite
+# 👁️ Padayappa Paarvai
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Padayappa Paarvai** is a web-based repository visualizer inspired by the authority and clarity of Rajinikanth’s *Padayappa*.
 
-Currently, two official plugins are available:
+Upload your folder structure as a JSON file and explore your repository visually — with hierarchy, search, and control.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> *“En vazhi, thani vazhi.”*  
+> See your code the Padayappa way.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🌐 Live Demo
 
-## Expanding the ESLint configuration
+👉 https://sanjay1712ksk.github.io/Padayappa-Paarvai/
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## ✨ Features
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- 📁 Visualize any repository structure as a tree
+- 📄 Automatic file & folder count
+- 🔍 Powerful search
+  - Case-sensitive toggle
+  - Exact vs fuzzy matching
+- 🌳 Auto-expand matching paths
+- 🎯 Highlighted search matches
+- 👁️ Interactive UI
+- ⚡ Fully client-side (no backend)
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+---
+
+## 🧠 How It Works
+
+Padayappa Paarvai does **not** read your filesystem directly.
+
+Instead, users:
+
+1. Export their folder structure as a JSON file  
+2. Upload the JSON in the browser  
+3. Instantly visualize the repository tree  
+
+Everything runs **locally in the browser**.
+
+---
+
+## 📥 JSON Format
+
+Your JSON file must follow this structure:
+
+```json
+{
+  "nodes": [
+    { "name": "src", "path": "src" },
+    { "name": "App.tsx", "path": "src/App.tsx", "type": "file" },
+    { "name": "components", "path": "src/components" }
+  ]
+}
+```
+---
+## 🚀 Getting Started (Local Development)
+
+1️⃣ Clone the repository
+```
+git clone https://github.com/Sanjay1712KSK/Padayappa-Paarvai.git
+cd Padayappa-Paarvai
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+2️⃣ Install dependencies
 ```
-=======
-# Visual-Folder-Structure-Visualization
->>>>>>> e0d29b7c942761925ede3ddc8d6cf7f7c9a1ac52
-=======
-Padayappa-Paarvai is a web based application created to track easily your project's directories in a easier way. Where its currently in developement and soon will be deployed in Github-Pages.
+npm install
+```
 
-Maintainer (Sanjay1712KSK)
->>>>>>> dccc7cca24714b3b84294b01ce6bdcdb3ee61064
+3️⃣ Start the dev server
+```
+npm run dev
+```
+
+Open in browser:
+```
+http://localhost:5173/Padayappa-Paarvai/
+```
+---
+
+## 🛠️ Built With
+
+Vite
+
+React
+
+TypeScript
+
+ES Modules
+
+GitHub Pages
+
+---
+
+## 🎯 Use Cases
+
+Understanding large repositories
+
+Visualizing unfamiliar codebases
+
+Teaching folder structures
+
+Portfolio and documentation tooling
+
+---
+
+## 📌 Design Philosophy
+
+Simple and readable
+
+No backend, no tracking
+
+User owns their data
+
+Inspired by authority, clarity, and structure
+
+---
+
+## 🧑‍💻 Author
+
+Sanjay Kumar S
+
+SRM University – KTR Campus
+
+LinkedIn: https://www.linkedin.com/in/sanjaykumarksk/
+
+GitHub: https://github.com/Sanjay1712KSK
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+## ⭐ Support
+
+If you find this project useful:
+
+## ⭐ Star the repository
+
+🍴 Fork it
+
+📢 Share it
+
+---
+
+## 🔮 Ongoing Development
+
+Padayappa Paarvai is actively under development.
+
+New features, performance improvements, and usability enhancements are continuously being explored to make it even easier to understand, analyze, and maintain complex project directory structures.
+
+Feedback, suggestions, and ideas are always welcome.
