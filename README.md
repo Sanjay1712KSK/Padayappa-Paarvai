@@ -93,7 +93,9 @@ ES Modules
 
 GitHub Pages
 
-🎯 Use Cases
+---
+
+## 🎯 Use Cases
 
 Understanding large repositories
 
@@ -103,7 +105,9 @@ Teaching folder structures
 
 Portfolio and documentation tooling
 
-📌 Design Philosophy
+---
+
+## 📌 Design Philosophy
 
 Simple and readable
 
@@ -113,23 +117,37 @@ User owns their data
 
 Inspired by authority, clarity, and structure
 
-🧑‍💻 Author
+---
 
-Sanju
+## 🧑‍💻 Author
+
+Sanjay Kumar S
 SRM University – KTR Campus
-
+LinkedIn: https://www.linkedin.com/in/sanjaykumarksk/
 GitHub: https://github.com/Sanjay1712KSK
 
-📄 License
+---
+
+## 📄 License
 
 This project is licensed under the MIT License.
 
-⭐ Support
+## ⭐ Support
 
 If you find this project useful:
 
-⭐ Star the repository
+## ⭐ Star the repository
 
 🍴 Fork it
 
 📢 Share it
+
+---
+
+## 🔮 Ongoing Development
+
+Padayappa Paarvai is actively under development.
+
+New features, performance improvements, and usability enhancements are continuously being explored to make it even easier to understand, analyze, and maintain complex project directory structures.
+
+Feedback, suggestions, and ideas are always welcome.
